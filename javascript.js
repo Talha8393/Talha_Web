@@ -4,10 +4,3 @@ btn.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
      })
 
-let responsiveBtn = document.getElementById("rbtn");
-responsiveBtn.addEventListener("click", inputmsg);
-
-function inputmsg(){
- let name = prompt("Enter the name of Student!"); 
- responsiveBtn.textContent ="User : "+ name;  
-}
